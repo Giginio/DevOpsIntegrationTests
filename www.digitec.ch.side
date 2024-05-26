@@ -1,0 +1,109 @@
+{
+  "id": "ce7083c5-5073-4963-8228-b2c515d144ed",
+  "version": "2.0",
+  "name": "https://www.digitec.ch/",
+  "url": "https://www.digitec.ch",
+  "tests": [{
+    "id": "f0f9cfac-7835-498d-8669-2fcc6b30869f",
+    "name": "Test mobile abo",
+    "commands": [{
+      "id": "b31cbf35-e3c3-49c4-915b-bdff3855f757",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c85f210b-7eb7-4edf-885f-59e9ef6956d5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x1303",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72a5e40e-4845-406f-972b-c702f53bc274",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-2745dec5-4 > .sc-a3cf0e9e-0",
+      "targets": [
+        ["css=.sc-2745dec5-4 > .sc-a3cf0e9e-0", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='usermenu']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01de6150-6cba-43e1-8f76-e0ae91c7b21f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-5842e2a2-3 > .sc-1145058e-1:nth-child(1) > .sc-202ee0cf-0",
+      "targets": [
+        ["css=.sc-5842e2a2-3 > .sc-1145058e-1:nth-child(1) > .sc-202ee0cf-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[3]/div/div/aside/section/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/de/daily-deal')])[4]", "xpath:href"],
+        ["xpath=//aside/section/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "881aea28-ac09-4131-951b-ba3845d6efd5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Galaxus Mobile",
+      "targets": [
+        ["linkText=Galaxus Mobile", "linkText"],
+        ["css=.sc-db3d9725-0:nth-child(4) li:nth-child(5) > .sc-963bc19-0", "css:finder"],
+        ["xpath=//a[contains(text(),'Galaxus Mobile')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/div[3]/div/div/div/nav/div[3]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mobile.galaxus.ch')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Galaxus Mobile')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9504",
+      "windowTimeout": 2000
+    }, {
+      "id": "a7f0934f-4f77-40dd-aaf7-3aa2c7d38b66",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9504}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57e93455-07cb-4e0e-a014-9d1dadda7d11",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Anmelden",
+      "targets": [
+        ["linkText=Anmelden", "linkText"],
+        ["css=.waves-effect", "css:finder"],
+        ["xpath=//a[contains(text(),'Anmelden')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/mobile/home')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Anmelden')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "080c007a-c0a7-47d0-b2ba-cdc2f604bc2c",
+      "comment": "",
+      "command": "check",
+      "target": "css=.button:nth-child(1) > .social-login__provider-name",
+      "targets": [
+        ["css=.button:nth-child(1) > .social-login__provider-name", "css:finder"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Mit Google anmelden')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ed765c9b-6aad-4d1b-99ca-59c1c6d5f8ff",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.digitec.ch/"],
+  "plugins": []
+}

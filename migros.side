@@ -1,0 +1,183 @@
+{
+  "id": "2a9c099c-a2cf-423d-9dd7-753151f05545",
+  "version": "2.0",
+  "name": "migros",
+  "url": "https://www.migros.ch",
+  "tests": [{
+    "id": "98b9416a-b943-4520-bdd7-de340d973aef",
+    "name": "migros test",
+    "commands": [{
+      "id": "571a79f7-6d85-4dc9-b533-b35350d3ba42",
+      "comment": "",
+      "command": "open",
+      "target": "/de?context=instore&gad_source=1&gclid=CjwKCAjwupGyBhBBEiwA0UcqaAQrYNNt5XHHfpQIXZUEozoeZbaSvth4qszb-5e0qqQ9QNrbjry-uxoCcZgQAvD_BwE",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5363e631-a00c-4d29-b581-04ab69af879c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1754x1304",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4520b6ad-53e5-40a8-aa97-102431e83fcc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8874e5e0-835b-484a-b6ff-c3eaf896983b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.discount .ng-star-inserted",
+      "targets": [
+        ["css=.discount .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='menu-topnav']/div/app-topnav/mo-main-menu/nav/ul/li[2]/a/span[2]/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8353e618-3f43-44c4-8d14-9a70b640ad76",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.discount .ng-star-inserted",
+      "targets": [
+        ["css=.discount .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='menu-topnav']/div/app-topnav/mo-main-menu/nav/ul/li[2]/a/span[2]/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f4d2440-224f-46e1-907b-763a62b653df",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.full-range > .mat-mdc-focus-indicator",
+      "targets": [
+        ["css=.full-range > .mat-mdc-focus-indicator", "css:finder"],
+        ["xpath=//div[@id='menu-topnav']/div/app-topnav/mo-main-menu/nav/ul/li/a/span[3]", "xpath:idRelative"],
+        ["xpath=//li/a/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bd48e1f-c87d-463c-80c4-c8eb934dd035",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.full-range > .mat-mdc-focus-indicator",
+      "targets": [
+        ["css=.full-range > .mat-mdc-focus-indicator", "css:finder"],
+        ["xpath=//div[@id='menu-topnav']/div/app-topnav/mo-main-menu/nav/ul/li/a/span[3]", "xpath:idRelative"],
+        ["xpath=//li/a/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4630620a-604f-4bfd-906b-5d9c2ecce96d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target:nth-child(5)",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target:nth-child(5)", "css:finder"],
+        ["xpath=//button[@id='nav-specialty-stores']/span[4]", "xpath:idRelative"],
+        ["xpath=//app-accordion/div/button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d2b022c-1cff-4e0c-85f7-c835648697bc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-mdc-button-touch-target:nth-child(5)",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target:nth-child(5)", "css:finder"],
+        ["xpath=//button[@id='nav-specialty-stores']/span[4]", "xpath:idRelative"],
+        ["xpath=//app-accordion/div/button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8f4ce84-0dc9-4ea6-9acd-3f02412c6b26",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hilfe & Kontakt",
+      "targets": [
+        ["linkText=Hilfe & Kontakt", "linkText"],
+        ["css=.column:nth-child(1) .ng-star-inserted:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Hilfe & Kontakt')]", "xpath:link"],
+        ["xpath=//div[@id='content']/ng-component/div/div/div/mo-footer/footer/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://help.migros.ch/de.html')]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hilfe & Kontakt')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4130",
+      "windowTimeout": 2000
+    }, {
+      "id": "0d3edde1-ec1e-427d-a341-018688381183",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4130}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d77946b3-99df-4fca-98f2-fc06386a1b0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tile-abd01a2b .tile-img",
+      "targets": [
+        ["css=#tile-abd01a2b .tile-img", "css:finder"],
+        ["xpath=(//img[@alt='tile icon'])[15]", "xpath:img"],
+        ["xpath=//div[@id='tile-abd01a2b']/div/div/figure/img", "xpath:idRelative"],
+        ["xpath=//div[15]/div/div/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0919ca80-7fca-4393-bafb-b15e3fdc93e0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Adressänderung im Migros Account",
+      "targets": [
+        ["linkText=Adressänderung im Migros Account", "linkText"],
+        ["css=#tile-abd01a2b p:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Adressänderung im Migros Account')]", "xpath:link"],
+        ["xpath=//div[@id='tile-abd01a2b']/div[2]/div/div/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://login.migros.ch/profile/addresses?_ga=2.257090891.1987368691.1715787299-1009933261.1715787277')]", "xpath:href"],
+        ["xpath=//div[15]/div[2]/div/div/div/p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Adressänderung im Migros Account')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6270",
+      "windowTimeout": 2000
+    }, {
+      "id": "e12cd15b-90a8-4c3d-8b99-3baa2e01e3b0",
+      "comment": "",
+      "command": "check",
+      "target": "id=button-submit",
+      "targets": [
+        ["id=button-submit", "id"],
+        ["css=#button-submit", "css:finder"],
+        ["xpath=//button[@id='button-submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Weiter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "803a987b-00d1-4d62-846a-e4ab07778941",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6270}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "835c34f5-c332-4b2f-8451-ffc97b44db19",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["98b9416a-b943-4520-bdd7-de340d973aef"]
+  }],
+  "urls": ["https://www.migros.ch/"],
+  "plugins": []
+}

@@ -1,0 +1,204 @@
+{
+  "id": "46ab1692-ad25-4da9-b1fe-5d386683e79f",
+  "version": "2.0",
+  "name": "digitec_address",
+  "url": "https://www.digitec.ch",
+  "tests": [{
+    "id": "75387f9f-2776-4f44-b618-4b663621f05d",
+    "name": "addresse ändern",
+    "commands": [{
+      "id": "44013587-bb09-4f01-8b93-2d3a4be9b8f3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b369454-fe38-45a2-b377-c3138b5b83af",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1199x1312",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aafe6b75-fb77-4aa6-9250-c15fbca9cc1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-a206941c-0",
+      "targets": [
+        ["css=.sc-a206941c-0", "css:finder"],
+        ["xpath=//button[@id='toggleCustomerAccountButton']/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50c738f2-6636-4b46-9fa8-58a85e0f4947",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-4575f693-1",
+      "targets": [
+        ["css=.sc-4575f693-1", "css:finder"],
+        ["xpath=//button[@id='toggleCustomerAccountButton']/div", "xpath:idRelative"],
+        ["xpath=//button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a0f5f3f-6a77-4ffd-be21-30420ded386d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-cf6aae8f-1:nth-child(3) .sc-2306e2ce-2",
+      "targets": [
+        ["css=.sc-cf6aae8f-1:nth-child(3) .sc-2306e2ce-2", "css:finder"],
+        ["xpath=//div[@id='__next']/div/div[3]/div/div/div[2]/nav/ul[2]/li[3]/button/div", "xpath:idRelative"],
+        ["xpath=//li[3]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d3d900a-36ed-4553-bd16-2ded121baa89",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-cf6aae8f-1:nth-child(3) > .sc-dcef69e4-0",
+      "targets": [
+        ["css=.sc-cf6aae8f-1:nth-child(3) > .sc-dcef69e4-0", "css:finder"],
+        ["xpath=(//button[@type='button'])[13]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[3]/div/div/div[2]/nav/ul[2]/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Einstellungen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93ae19e0-5407-4a05-bd47-65140b550d75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-b274c231-2:nth-child(1) .sc-2306e2ce-2",
+      "targets": [
+        ["css=.sc-b274c231-2:nth-child(1) .sc-2306e2ce-2", "css:finder"],
+        ["xpath=//div[@id=':r2:']/ul/li/a/div", "xpath:idRelative"],
+        ["xpath=//div/ul/li/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5ff14d0-815b-4544-b912-85122e320070",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-8e9bd633-0:nth-child(1) .sc-8e9bd633-4",
+      "targets": [
+        ["css=.sc-8e9bd633-0:nth-child(1) .sc-8e9bd633-4", "css:finder"],
+        ["xpath=//main[@id='pageContent']/section[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Adressen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e921309-cd13-456e-9fe5-a1c77e3dbf2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-26066a5f-2 > .sc-dcef69e4-0",
+      "targets": [
+        ["css=.sc-26066a5f-2 > .sc-dcef69e4-0", "css:finder"],
+        ["xpath=(//button[@type='button'])[32]", "xpath:attributes"],
+        ["xpath=//div[@id=':r3:']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Neue Adresse hinzufügen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4d19aaf-a0ea-4d63-a25e-b5f01ba96eeb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-26066a5f-2 > .sc-dcef69e4-0",
+      "targets": [
+        ["css=.sc-26066a5f-2 > .sc-dcef69e4-0", "css:finder"],
+        ["xpath=(//button[@type='button'])[32]", "xpath:attributes"],
+        ["xpath=//div[@id=':r3:']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Neue Adresse hinzufügen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc664e67-ce55-403b-9787-12a2e1ecc863",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-26066a5f-2 > .sc-dcef69e4-0",
+      "targets": [
+        ["css=.sc-26066a5f-2 > .sc-dcef69e4-0", "css:finder"],
+        ["xpath=(//button[@type='button'])[32]", "xpath:attributes"],
+        ["xpath=//div[@id=':r3:']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Neue Adresse hinzufügen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ae475a4-79c6-4c9e-9fe4-dab6ac8c475f",
+      "comment": "",
+      "command": "click",
+      "target": "id=street:r9:",
+      "targets": [
+        ["id=street:r9:", "id"],
+        ["css=#street\\3Ar9\\3A", "css:finder"],
+        ["xpath=//input[@id='street:r9:']", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f02eade8-2491-4d86-b65f-7d50da5caf94",
+      "comment": "",
+      "command": "type",
+      "target": "id=street:r9:",
+      "targets": [
+        ["id=street:r9:", "id"],
+        ["css=#street\\3Ar9\\3A", "css:finder"],
+        ["xpath=//input[@id='street:r9:']", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "Birmensdorferstrasse 15"
+    }, {
+      "id": "e11bad41-59c1-4b0f-904b-39ba2d6453ee",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=street:r9:",
+      "targets": [
+        ["id=street:r9:", "id"],
+        ["css=#street\\3Ar9\\3A", "css:finder"],
+        ["xpath=//input[@id='street:r9:']", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "dcddad3c-f4be-49bd-bdd7-bbbea9947395",
+      "comment": "",
+      "command": "click",
+      "target": "id=zipCode:ra:",
+      "targets": [
+        ["id=zipCode:ra:", "id"],
+        ["css=#zipCode\\3Ara\\3A", "css:finder"],
+        ["xpath=//input[@id='zipCode:ra:']", "xpath:attributes"],
+        ["xpath=//div[5]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "099e5edb-de1d-46ae-8c5f-d465b6603c09",
+      "comment": "",
+      "command": "check",
+      "target": "id=city:rb:",
+      "targets": [
+        ["id=city:rb:", "id"],
+        ["name=city", "name"],
+        ["css=#city\\3Arb\\3A", "css:finder"],
+        ["xpath=//input[@id='city:rb:']", "xpath:attributes"],
+        ["xpath=//div[5]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "65ceb3dd-ca7c-4680-a105-0944c08139e1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["75387f9f-2776-4f44-b618-4b663621f05d"]
+  }],
+  "urls": ["https://www.digitec.ch/"],
+  "plugins": []
+}

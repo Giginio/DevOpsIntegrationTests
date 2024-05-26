@@ -1,0 +1,265 @@
+{
+  "id": "bb7ec6ff-13f8-4178-8e18-e9564ad72d99",
+  "version": "2.0",
+  "name": "youtube",
+  "url": "https://www.youtube.com",
+  "tests": [{
+    "id": "0f3af931-f084-44f5-903c-055ffd13d9cd",
+    "name": "Untitled",
+    "commands": [{
+      "id": "6b87fd23-03fe-46cc-857b-e742c7789e09",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8927d24-d691-4b94-9389-f55ce997b174",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1199x1305",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f67b6193-2f1b-4282-a561-c939a121364b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(1) > #contents > .style-scope:nth-child(2) > #content #dismissible > #thumbnail .yt-core-image",
+      "targets": [
+        ["css=.style-scope:nth-child(1) > #contents > .style-scope:nth-child(2) > #content #dismissible > #thumbnail .yt-core-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/LKKhKHNxF_w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAq8Jk7Dfe5yyr3OLhTpsMycFzdCA')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[2]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-media/div/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10587178-cdac-4cb8-841a-d03d87fd1a95",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(1) > #contents > .style-scope:nth-child(2) > #content #dismissible > #thumbnail .yt-core-image",
+      "targets": [
+        ["css=.style-scope:nth-child(1) > #contents > .style-scope:nth-child(2) > #content #dismissible > #thumbnail .yt-core-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/LKKhKHNxF_w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAq8Jk7Dfe5yyr3OLhTpsMycFzdCA')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[2]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-media/div/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fae322d4-d1b5-4f3b-a31d-195155595bb8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,408)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e9a3666-7728-45cb-a6e1-d577d8637ff3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,918)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2babdcdf-9a26-4ce4-851d-bfda88126adb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(2) > #content .yt-core-image",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(2) > #content .yt-core-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/rxakCCIVMfk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA1gWxoTUAhUNiRB9iOK8je3RLAkw')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[19]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-row[3]/div/ytd-rich-item-renderer[2]/div/ytd-rich-grid-media/div/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adbb3137-bdc8-4904-a15e-f0e0850a3bc0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(2) > #content .yt-core-image",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(2) > #content .yt-core-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/rxakCCIVMfk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA1gWxoTUAhUNiRB9iOK8je3RLAkw')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[19]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-row[3]/div/ytd-rich-item-renderer[2]/div/ytd-rich-grid-media/div/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f79df57d-2218-407e-94dc-c63edb6b6b82",
+      "comment": "",
+      "command": "click",
+      "target": "css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content .yt-core-image",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content .yt-core-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/6sqtXtbzjr0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2DJjx83Cx4Jw9OYIkcrXVtVqqYw')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[20]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-row[3]/div/ytd-rich-item-renderer[3]/div/ytd-rich-grid-media/div/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c8c4131-b00f-4f2e-b57e-092d395e08a1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(2) > #content .yt-core-image",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(2) > #content .yt-core-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/rxakCCIVMfk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA1gWxoTUAhUNiRB9iOK8je3RLAkw')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[19]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-row[3]/div/ytd-rich-item-renderer[2]/div/ytd-rich-grid-media/div/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "184d77ae-1c2f-4bac-accd-03bb3dede1fd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(2) > #content .yt-core-image",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(2) > #content .yt-core-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/rxakCCIVMfk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA1gWxoTUAhUNiRB9iOK8je3RLAkw')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[19]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-row[3]/div/ytd-rich-item-renderer[2]/div/ytd-rich-grid-media/div/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cf752b8-98d2-4b5d-a747-0bef1bf0cc40",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content .yt-core-image",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content .yt-core-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/6sqtXtbzjr0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2DJjx83Cx4Jw9OYIkcrXVtVqqYw')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[20]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-row[3]/div/ytd-rich-item-renderer[3]/div/ytd-rich-grid-media/div/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b81b3b0-ad6a-422c-acef-62fbc6ada6cb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content .yt-core-image",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content .yt-core-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/6sqtXtbzjr0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2DJjx83Cx4Jw9OYIkcrXVtVqqYw')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[20]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-row[3]/div/ytd-rich-item-renderer[3]/div/ytd-rich-grid-media/div/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "012506e6-4387-45e5-9243-28a47efad5cd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content #video-title",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content #video-title", "css:finder"],
+        ["xpath=(//yt-formatted-string[@id='video-title'])[8]", "xpath:attributes"],
+        ["xpath=(//a[@id='video-title-link']/yt-formatted-string)[7]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-row[3]/div/ytd-rich-item-renderer[3]/div/ytd-rich-grid-media/div/div[3]/div/h3/a/yt-formatted-string", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3886f851-a3b6-45bb-8267-4625a26677e2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content #video-title",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content #video-title", "css:finder"],
+        ["xpath=(//yt-formatted-string[@id='video-title'])[8]", "xpath:attributes"],
+        ["xpath=(//a[@id='video-title-link']/yt-formatted-string)[7]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-row[3]/div/ytd-rich-item-renderer[3]/div/ytd-rich-grid-media/div/div[3]/div/h3/a/yt-formatted-string", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db2bb65f-d9d9-499e-a26c-717d1c7e056c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content #video-title",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content #video-title", "css:finder"],
+        ["xpath=(//yt-formatted-string[@id='video-title'])[8]", "xpath:attributes"],
+        ["xpath=(//a[@id='video-title-link']/yt-formatted-string)[7]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-row[3]/div/ytd-rich-item-renderer[3]/div/ytd-rich-grid-media/div/div[3]/div/h3/a/yt-formatted-string", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f17652af-9819-4d4b-ad5f-58f80fb28fe7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content #video-title",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content #video-title", "css:finder"],
+        ["xpath=(//yt-formatted-string[@id='video-title'])[8]", "xpath:attributes"],
+        ["xpath=(//a[@id='video-title-link']/yt-formatted-string)[7]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-row[3]/div/ytd-rich-item-renderer[3]/div/ytd-rich-grid-media/div/div[3]/div/h3/a/yt-formatted-string", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f93924d-c2ae-418e-853c-54667052f9c4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content #video-title",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content #video-title", "css:finder"],
+        ["xpath=(//yt-formatted-string[@id='video-title'])[8]", "xpath:attributes"],
+        ["xpath=(//a[@id='video-title-link']/yt-formatted-string)[7]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-row[3]/div/ytd-rich-item-renderer[3]/div/ytd-rich-grid-media/div/div[3]/div/h3/a/yt-formatted-string", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "184f26eb-1bb1-4897-85dc-c5add3015070",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content #video-title",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content #video-title", "css:finder"],
+        ["xpath=(//yt-formatted-string[@id='video-title'])[8]", "xpath:attributes"],
+        ["xpath=(//a[@id='video-title-link']/yt-formatted-string)[7]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-row[3]/div/ytd-rich-item-renderer[3]/div/ytd-rich-grid-media/div/div[3]/div/h3/a/yt-formatted-string", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "765c6ccf-269f-4029-aa30-12ffd07c8391",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content #video-title",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #contents > .style-scope:nth-child(3) > #content #video-title", "css:finder"],
+        ["xpath=(//yt-formatted-string[@id='video-title'])[8]", "xpath:attributes"],
+        ["xpath=(//a[@id='video-title-link']/yt-formatted-string)[7]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-row[3]/div/ytd-rich-item-renderer[3]/div/ytd-rich-grid-media/div/div[3]/div/h3/a/yt-formatted-string", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2441c88f-cbab-4ff2-ae7c-218998912d35",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(6) > #contents > .style-scope:nth-child(1) > #content .yt-core-image",
+      "targets": [
+        ["css=.style-scope:nth-child(6) > #contents > .style-scope:nth-child(1) > #content .yt-core-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/f1DvOF-giJQ/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFIoTzAP&rs=AOn4CLB5YmuY4cIfsAOHmHZZ53BAOWHnjg')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[24]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-row[5]/div/ytd-rich-item-renderer/div/ytd-rich-grid-media/div/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51e42a9b-26b3-41a2-bc8f-ae3cc4c2dd6a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(6) > #contents > .style-scope:nth-child(1) > #content .yt-core-image",
+      "targets": [
+        ["css=.style-scope:nth-child(6) > #contents > .style-scope:nth-child(1) > #content .yt-core-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/f1DvOF-giJQ/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIFIoTzAP&rs=AOn4CLB5YmuY4cIfsAOHmHZZ53BAOWHnjg')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[24]", "xpath:idRelative"],
+        ["xpath=//ytd-rich-grid-row[5]/div/ytd-rich-item-renderer/div/ytd-rich-grid-media/div/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "62566fdb-f00b-4c51-8cfd-7a8c05fe7d86",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0f3af931-f084-44f5-903c-055ffd13d9cd"]
+  }],
+  "urls": ["https://www.youtube.com/"],
+  "plugins": []
+}
